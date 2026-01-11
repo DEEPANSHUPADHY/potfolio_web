@@ -1,16 +1,14 @@
-h1
-{
- color:red;
+.download-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #4f46e5;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  margin: 5px;
 }
-.web
-{
-  color:yellow;
-font-weight:bold;
-}
-.box {
-  margin: 30px;
-  width: 100px;
-  height: 100px;
-  background-color: rebeccapurple;
-  transform: rotate(0.8turn);
+
+.download-btn:hover {
+  background-color: #4338ca;
 }
