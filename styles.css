@@ -1,3 +1,16 @@
+body
+{
+   margin:0px;
+   padding:0px;
+   
+   height:4555px;
+}
+
+img
+{
+   padding:200px;
+}
+
 .download-btn {
   display: inline-block;
   padding: 12px 20px;
@@ -12,3 +25,41 @@
 .download-btn:hover {
   background-color: #4338ca;
 }
+
+td
+{
+  background-color:  rgba(255, 0, 0, 0.3);
+  border-radius:10px;
+  border:1px;
+  border-collapse:collapse;
+  margin: 10px;
+  padding:10px 
+  opacity:0.5;
+  animation-duration: 3s;
+  animation-name: slide-in;
+  transition: background-color 0.3s ease;
+  cursor:pointer;
+}
+td:hover 
+{
+  background-color:green;
+}
+@keyframes slide-in {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+
+table
+{
+  margin:10px;
+}
+
+
+
